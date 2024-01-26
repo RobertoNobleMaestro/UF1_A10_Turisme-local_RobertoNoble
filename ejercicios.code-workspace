@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../xampp/htdocs/ejercicios"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "repositorios"
+	}
+}
