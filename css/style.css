@@ -7,15 +7,11 @@ html{
 body {
     margin: 0;
 }
-
-
 .fila:after {
     content: "";
     display: flex;
     clear: both;
 }
-
-
 .columna-3 {
     width: 25%;
     float: left;
@@ -53,7 +49,9 @@ body {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 #menu {
-    position: fixed; top: 50px; z-index: -1;
+    position: fixed; 
+    top: 50px; 
+    z-index: -1;
 }
 .card-link { 
     text-align: center;
@@ -107,7 +105,7 @@ section img:hover{
     transition: color 0.5s; 
 }
 .columna-6 a:hover {
-    color: rgb(255, 0, 0); 
+    color: rgb(65, 27, 255); 
     text-decoration: underline;
 }
 
@@ -131,4 +129,11 @@ section img:hover{
     section img{
         flex-grow:0,5;
     }
+    h2,h3,h4,h5,p{
+        text-align: center;
+    }
+    section{
+        height: 300px;
+    }
+
 }
